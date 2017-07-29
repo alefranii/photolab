@@ -15,6 +15,7 @@ gulp.task('script', function () {
         .pipe(gulp.dest('dist/js'));
 });
 
+
 //tarea2  concatena y minifica el archivo main.scss, convirtiendolo en style.min.css. guardandolos en la carpeta dist.
 gulp.task('style', function () {
     gulp.src(['node_modules/materialize-css/dist/css/materialize.css', 'assets/sass/main.scss'])
